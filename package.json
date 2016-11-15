@@ -1,0 +1,17 @@
+{
+  "name": "power-assert-error-sample",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --require intelli-espower-loader tests/spec.js"
+  },
+  "directories": {
+    "test": "tests/"
+  },
+  "dependencies": {
+    "intelli-espower-loader": "^1.0.1",
+    "mocha": "^3.1.2",
+    "power-assert": "^1.4.2"
+  }
+}
