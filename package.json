@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "mocha --require intelli-espower-loader tests/spec.js"
+    "test": "mocha --require intelli-espower-loader tests/spec.js",
+    "test-fixed": "mocha --require intelli-espower-loader tests/fixed.js"
   },
   "directories": {
     "test": "tests/"
